@@ -62,6 +62,7 @@ void loop() {
 
 // Fancy formatting to quickly copy / paste the log into XCTU Frame decoder tool 
 // Serial.print(x,HEX) don't put leading zeros and copy/paste is not correctly decoded by XCTU.
+
 void MyPrintHex8(uint8_t value)
 {
 
