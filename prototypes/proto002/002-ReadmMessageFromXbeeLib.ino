@@ -18,7 +18,7 @@
  */
 
 #include <XBee.h>
-#include <SoftwareSerial.h>
+//#include <SoftwareSerial.h>
 
 /*
 This example is for Series 2 (ZigBee) XBee Radios only
@@ -41,15 +41,13 @@ uint8_t ssRX = 8;
 // Connect Arduino pin 9 to RX of usb-serial device
 uint8_t ssTX = 9;
 // Remember to connect all devices to a common Ground: XBee, Arduino and USB-Serial device
-SoftwareSerial nss(ssRX, ssTX);
+//SoftwareSerial nss(ssRX, ssTX);
 // You can watch the initial code in the Xbee Arduino Library examples : Serie2_ioSamples.pde
 // ------ end of useless code on Leonardo. 
 
 XBee xbee = XBee();
 
 ZBRxIoSampleResponse ioSample = ZBRxIoSampleResponse();
-
-XBeeAddress64 test = XBeeAddress64();
 
 void setup() { 
 

@@ -1,6 +1,5 @@
 // XBee-Arduino library - Version: Latest 
 #include <Printers.h>
-#include <XBee.h>
 
 /*
 1 Xbee is regularly sending IO samples throug API message. 
